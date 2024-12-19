@@ -73,7 +73,7 @@ When the state of a group is changed by a command (so not via a state change of 
 
 By using the above `add` command above, a device will be added to a group. The device itself is responsible for storing to which groups it belongs. Others, e.g. the coordinator, do not have knowledge to which groups a device belongs.
 
-When using the `set` command, e.g. to turn on all devices in a group, a broadcast request is send to **all** devices in the network. The device itself then determines if it belongs to that group and if it should execute the command.
+When using the `set` command, e.g. to turn on all devices in a group, a broadcast request is sent to **all** devices in the network. The device itself then determines if it belongs to that group and if it should execute the command.
 
 ## Adding a specific endpoint
 
